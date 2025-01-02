@@ -1,0 +1,12 @@
+update && apt upgrade
+pkg install python
+pkg install git
+git clone https://github.com/Mr-Krishna-90/Number-Info.git
+cd Number-info
+pip install requests
+pip install bs4
+pip install BeautifulSoup
+pip install pyshorteners
+
+
+python numXch.py
